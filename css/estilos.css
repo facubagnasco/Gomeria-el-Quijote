@@ -236,4 +236,9 @@ textarea {
   color: red;
 }
 
+.link404:hover {
+  color: red;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=estilos.css.map */
