@@ -6,6 +6,12 @@ body {
   animation: desplazamiento 1s;
 }
 
+img,
+svg {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
 @keyframes desplazamiento {
   0% {
     padding-top: 100%;
