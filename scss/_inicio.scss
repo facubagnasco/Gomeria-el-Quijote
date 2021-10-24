@@ -19,6 +19,11 @@
   font-weight: 600;
 }
 
+nav span i {
+  color: black;
+  transform: scale(1.4);
+}
+
 .btn-rounded {
   position: relative;
   background: white;
@@ -80,10 +85,4 @@
   display: block;
   font-size: 1.5rem;
   text-transform: capitalize;
-}
-
-img,
-svg {
-  vertical-align: middle;
-  max-width: 100%;
 }
