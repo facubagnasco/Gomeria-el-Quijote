@@ -1,0 +1,20 @@
+.section404 {
+  background-color: #ddd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.error404 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.link404 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: red;
+}
