@@ -123,6 +123,20 @@ nav span i {
   width: 100%;
 }
 
+.card {
+  background-color: #ddd;
+  box-shadow: 10px 5px 5px #949494;
+  margin-bottom: 3rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
 /*ACA COMIENZA EL ESTILO DE AYUDA*/
 .form {
   text-align: center;
