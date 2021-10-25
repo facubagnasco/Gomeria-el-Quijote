@@ -1,5 +1,5 @@
 .card {
-  background-color: #ddd;
+  background-color: white;
   box-shadow: 10px 5px 5px rgb(148, 148, 148);
   margin-bottom: 3rem;
 }
@@ -10,4 +10,9 @@
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
+}
+
+.precio {
+  display: block;
+  text-align: center;
 }

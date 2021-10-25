@@ -124,7 +124,7 @@ nav span i {
 }
 
 .card {
-  background-color: #ddd;
+  background-color: white;
   box-shadow: 10px 5px 5px #949494;
   margin-bottom: 3rem;
 }
@@ -135,6 +135,11 @@ nav span i {
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
+}
+
+.precio {
+  display: block;
+  text-align: center;
 }
 
 /*ACA COMIENZA EL ESTILO DE AYUDA*/
