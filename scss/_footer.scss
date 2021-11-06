@@ -1,18 +1,25 @@
 /*ESTILOS DEL FOOTER*/
 
 .cont {
-  border-bottom: 1px solid #777;
-  border-top: 1px solid #777;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin: 0 10% 0 10%;
 }
-
 .footer {
   font-weight: 500;
   text-align: center;
-  margin: 10%;
-  padding: 2rem;
+  padding-top: 5rem;
   font-size: 1rem;
   line-height: 3rem;
-  margin-top: 1.2rem;
+}
+
+.footer1 {
+  background-color: #ddd;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 1rem;
+  line-height: 3rem;
 }
 
 .footer-bottom {
