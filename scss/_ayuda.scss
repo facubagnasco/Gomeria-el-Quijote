@@ -32,3 +32,43 @@ textarea {
   max-height: 200px;
   min-height: 100px;
 }
+
+.btn-send {
+  position: relative;
+  background: white;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.2rem 3rem 1.2rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 0.1rem solid white;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.6s;
+  border: 1px solid #777;
+}
+
+.btn-send span {
+  position: absolute;
+  background-color: red;
+  width: 2rem;
+  height: 2rem;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.btn-send span i {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  transform: scale(0.9);
+}
+
+.btn-send:hover {
+  color: white;
+  background-color: black;
+  transform: scale(1.05);
+}

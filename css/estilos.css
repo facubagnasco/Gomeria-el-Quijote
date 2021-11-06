@@ -187,6 +187,46 @@ textarea {
   min-height: 100px;
 }
 
+.btn-send {
+  position: relative;
+  background: white;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.2rem 3rem 1.2rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 0.1rem solid white;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.6s;
+  border: 1px solid #777;
+}
+
+.btn-send span {
+  position: absolute;
+  background-color: red;
+  width: 2rem;
+  height: 2rem;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.btn-send span i {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  transform: scale(0.9);
+}
+
+.btn-send:hover {
+  color: white;
+  background-color: black;
+  transform: scale(1.05);
+}
+
 /*ESTILOS DEL FOOTER*/
 .cont {
   border-bottom: 1px solid black;
@@ -236,6 +276,18 @@ textarea {
   vertical-align: middle;
   background: #d6249f;
   background: radial-gradient(circle at 3% 100%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  transition: 0.5s;
+}
+
+.instagram i:hover {
+  background-image: linear-gradient(45deg, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.instagram:hover {
+  background: white;
 }
 
 .twitter i {
@@ -251,6 +303,15 @@ textarea {
   line-height: 55px;
   vertical-align: middle;
   background: #39c1f7;
+  transition: 0.5s;
+}
+
+.twitter i:hover {
+  color: #39c1f7;
+}
+
+.twitter:hover {
+  background-color: white;
 }
 
 /*ACA COMIENZA EL ESTILO DE FAQ*/
