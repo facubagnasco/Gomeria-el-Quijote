@@ -1,12 +1,11 @@
 .section404 {
   background-color: #ddd;
-  padding: 0;
+  padding-top: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  animation: err404 1s;
 }
 
 .error404 {
@@ -22,5 +21,7 @@
 }
 
 .link404:hover {
-  transform: scale(1.3);
+  transform: scale(2);
+  color: red;
+  font-weight: 600;
 }
