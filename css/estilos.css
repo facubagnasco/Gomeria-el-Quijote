@@ -328,7 +328,7 @@ textarea {
 
 .section404 {
   background-color: #ddd;
-  padding-top: 8rem;
+  padding-top: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -349,7 +349,6 @@ textarea {
 }
 
 .link404:hover {
-  transform: scale(2);
   color: red;
   font-weight: 600;
 }
