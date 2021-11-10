@@ -328,7 +328,7 @@ textarea {
 
 .section404 {
   background-color: #ddd;
-  padding-top: 8rem;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -346,20 +346,21 @@ textarea {
   text-transform: uppercase;
   font-size: 1.6rem;
   font-weight: 600;
-  color: blue;
+  color: red;
 }
 
 .link404:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
-@keyframes err404 {
+/*no@keyframes err404 {
   0% {
     padding-top: 100%;
   }
   100% {
-    padding-top: 20%;
+    padding-top: 0;
   }
 }
+*/
 
 /*# sourceMappingURL=estilos.css.map */
